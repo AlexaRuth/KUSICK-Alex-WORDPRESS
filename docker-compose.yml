@@ -1,8 +1,7 @@
 version: '3'
 
 services:
-
-database:
+    database:
     image: mysql:5.7
     container_name: KUSICK-Alex-DB
     restart: always
@@ -10,7 +9,7 @@ database:
     - "3306"
     volumes:
     - ./mysql_dump:/docker-entrypoint-initdb.d
-    
+
 environment:
     MYSQL_ROOT_PASSWORD: somewordpress
     MYSQL_DATABASE: wordpress
