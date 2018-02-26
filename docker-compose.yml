@@ -16,7 +16,7 @@ services:
       MYSQL_PASSWORD: wordpress
 
   wordpress:
-    image: wordpress:4.8.2
+    image: wordpress:4.9.4
     container_name: KUSICK-Alex-WP
     restart: always
     ports:
