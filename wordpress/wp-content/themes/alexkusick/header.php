@@ -13,9 +13,9 @@
 
 	<body>
 		 <header>
+		 	<?php get_template_part('nav'); ?>
 		 	<h1><?php echo get_bloginfo ('name'); ?></h1>
 			<!--<?php echo get_bloginfo ('decription'); ?>-->
-			<?php get_template_part('nav'); ?>
 
 		 </header>
 

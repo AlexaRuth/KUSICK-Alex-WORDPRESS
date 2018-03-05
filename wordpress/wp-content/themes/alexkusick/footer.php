@@ -1,8 +1,8 @@
 <!-- <?echo basename(__FILE__); ?>  -->
 <footer>
-
-<h3>thank you for visiting</h3>
+	
 <?php get_template_part('nav'); ?>
+<!--<h4>thank you for visiting</h4>-->
 
 </footer>
 <?php wp_footer(); ?>

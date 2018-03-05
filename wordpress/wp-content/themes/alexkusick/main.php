@@ -1,13 +1,13 @@
 <!-- <?echo basename(__FILE__); ?>  -->
 <main>
-	<h2> This is the main part of my page</h2>
+	<!-- <h2>Welcome <3</h2>-->
 
 		<article class="post">
 			
 			<h2><a href="#!">Title / Link</a></h2>
 
 			<div class ="post_image">
-				<a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+				<a href="#!"><img src="http://via.placeholder.com/350x150"></a>
 				</div>
 
 			<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam nibh. Nunc varius facilisis eros. Sed erat. In in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer. Etiam vitae nisl. In dignissim lacus ut ante. Cras elit lectus, bibendum a, adipiscing vitae, commodo et, dui. Ut tincidunt tortor. Donec nonummy, enim in lacinia pulvinar, velit tellus scelerisque augue, ac posuere libero urna eget neque. Cras ipsum. Vestibulum pretium, lectus nec venenatis volutpat, purus lectus ultrices risus, a condimentum risus mi et quam. Pellentesque auctor fringilla neque. Duis eu massa ut lorem iaculis vestibulum. Maecenas facilisis elit sed justo. Quisque volutpat malesuada velit. </p>
@@ -23,7 +23,7 @@
 			<h2><a href="#!">Title / Link</a></h2>
 
 			<div class ="post_image">
-				<a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+				<a href="#!"><img src="http://via.placeholder.com/350x150"></a>
 				</div>
 
 

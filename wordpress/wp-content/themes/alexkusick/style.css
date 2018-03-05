@@ -45,6 +45,10 @@ h3 {
 	font-size: 20pt;
 	}
 
+main{
+	align-content: center;
+	}
+
 .post .post_date h4 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
@@ -55,6 +59,20 @@ h3 {
 	background-color: #ffffff;
 	padding: 20px;
 	margin: 10px;
+	}
+
+.post .post_image{
+	margin:auto;
+	max-width: auto;
+	}
+
+.post a {
+	text-decoration: none;
+	color: #a00684;
+	}
+
+.post a:hover {
+	color: #7921ff;
 	}
 
 a {
@@ -160,6 +178,15 @@ input::placeholder {
 
 
 /* Footer */
+footer {
+	border-top: 3pt solid #FFCC33;
+	}
+
+footer nav{
+	margin: auto;
+	padding-top: 20px;
+	align-content: center;
+	}
 
 footer p{
 	font-size: 12px;
