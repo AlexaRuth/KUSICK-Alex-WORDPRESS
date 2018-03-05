@@ -13,11 +13,9 @@
 
 	<body>
 		 <header>
-		 	<h1> This is my website!!</h1>
-		 	<h2> Pretty cool, RIGHT!</h2>
-		 	<h2><?php echo get_bloginfo ('name'); ?></h2>
-			<?php echo get_bloginfo ('decription'); ?>
-		<?php get_template_part('nav'); ?>
+		 	<h1><?php echo get_bloginfo ('name'); ?></h1>
+			<!--<?php echo get_bloginfo ('decription'); ?>-->
+			<?php get_template_part('nav'); ?>
 
 		 </header>
 
