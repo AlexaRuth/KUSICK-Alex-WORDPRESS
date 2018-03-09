@@ -7,16 +7,17 @@
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
 						<?php //print_r($post);?>
 
-				<h2><?php echo $post->post_title;?></h2>
+				<?php the_title('<h2>', '</h2>');?>
 				<div class="">
 					<?php echo $post->post_content;?>
 				</div>
 				<br />
-				<br />
-				<br />
 
+				<?php $pfx_date = get_the_date( $format, $post_id ); ?> 
 
-			<?php endwhile; else : ?>
+				 <?php the_category( $separator, $parents, $post_id ); ?>
+
+				<?php endwhile; else : ?>
 				<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 			<?php endif; ?>
 
