@@ -19,7 +19,7 @@ body{
 	font-weight: 300;
 	line-height: 1em;
 	color: #585858;
-	max-width: 720px;
+	max-width: 960px;
 	padding: 16px;
 	margin: auto;
 	background-color: #f4f4f4;
@@ -28,14 +28,14 @@ body{
 h1 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
-	font-size: 32pt;
+	font-size: 30pt;
 	color: #FFCC33;
 	}
 
 h2 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
-	font-size: 54pt;
+	font-size: 38pt;
 	color: #f71b3f;
 	}
 
