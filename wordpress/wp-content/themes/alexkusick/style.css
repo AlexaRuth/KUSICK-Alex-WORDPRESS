@@ -49,6 +49,52 @@ main{
 	align-content: center;
 	}
 
+/*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+/*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+/* Page Style PLACE HOLDER - WP DOCUMENTATION 
+THE FOLLOWING NAMES WOULD BE ADDED INSIDE THE 
+(  ) FOR --> BODY_CLASS() */
+
+.page {
+    /* styles for all posts within the page class */
+}
+.page-id-2 {
+    /* styles for only page ID number 2 */
+}
+.logged-in {
+    /* styles for all pageviews when the user is logged in */
+}
+
+/*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+/*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+/* THESE STYLE THE SPECIFIC POST BUT NOT USING FOR NOW.
+SEE WP DOCUMENTATION FOR DETAILS */
+
+.post {
+    /* Styles for all posts */
+}
+ 
+.post-4564 {
+    /* Styles for only this post (ID number 4564) */
+}
+ 
+.category-news {
+    /* Styles for all posts in the 'news' category  */
+}
+ 
+.format-standard {
+    /* Styles for all posts assigned the post-format of 'standard'  */
+}
+
+/*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+/*  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  */
+
+
+/* CURRENT POST DETAILS AND STYLE BELOW */
+
+
 .post .post_date h4 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;

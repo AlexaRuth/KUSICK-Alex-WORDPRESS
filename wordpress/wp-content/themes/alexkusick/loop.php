@@ -1,12 +1,14 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?> 
 
-<a href="<?php the_permalink($the_title); ?>">
+	<article <?php post_class(); ?>>
+		<a href="<?php the_permalink($the_title); ?>">
+			<?php the_title('<h2>','</h2>');?></a>
 
-	<article class="post"><?php the_title('<h2>','</h2>');?></a>
-	<div class=""><?php echo $post->post_content;?></div>
+			<?php the_content(); ?>
+		</article>
+
 	<br />
-
 
 <?php $pfx_date = get_the_date( $format, $post_id ); ?> 
 
