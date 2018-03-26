@@ -5,7 +5,7 @@
 		<a href="<?php the_permalink($the_title); ?>">
 			<?php the_title('<h2>','</h2>');?></a>
 
-			<?php //the_content(); ?>
+			<?php the_content(); ?>
 		</article>
 
 	<br />
@@ -17,7 +17,3 @@
 <?php endwhile; else : ?>
 		<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 	<?php endif; ?>
-
-
-
-
