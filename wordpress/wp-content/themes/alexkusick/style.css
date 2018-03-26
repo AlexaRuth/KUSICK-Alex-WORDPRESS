@@ -94,7 +94,6 @@ SEE WP DOCUMENTATION FOR DETAILS */
 
 /* CURRENT POST DETAILS AND STYLE BELOW */
 
-
 .post .post_date h4 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 500;
@@ -111,6 +110,21 @@ SEE WP DOCUMENTATION FOR DETAILS */
 	margin:auto;
 	max-width: auto;
 	}
+
+/* NOT SURE THIS IS THE CORRECT MARK UP  */
+
+
+.post .post_image a h2:hover {
+    color: #dff280;
+    text-decoration: none;
+}
+
+.post .post_video a h2:hover {
+    color: #f67280;
+    text-decoration: none;
+}
+
+/*/////////////////////////////////////*/
 
 .post a {
 	text-decoration: none;
